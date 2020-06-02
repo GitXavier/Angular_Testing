@@ -3,9 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// Material
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatIconModule } from '@angular/material/icon';
+
+// Pages
 import { SildeMenuComponent } from './pages/silde-menu/silde-menu.component';
 import { HomeComponent } from './pages/home/home.component';
 
@@ -19,7 +23,8 @@ import { HomeComponent } from './pages/home/home.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatSliderModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
